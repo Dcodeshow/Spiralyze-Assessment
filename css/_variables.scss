@@ -1,0 +1,28 @@
+/*****variable End*****/
+
+@mixin centerdisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @content;
+}
+
+/**Media**/
+
+@mixin mediamax($maxval) {
+    @media (max-width: $maxval) {
+        @content;
+    }
+}
+
+@mixin mediamin($minval) {
+    @media (min-width: $minval) {
+        @content;
+    }
+}
+
+@mixin mediamix($minval, $maxval) {
+    @media (min-width: $minval) and (max-width: $maxval) {
+        @content;
+    }
+}
