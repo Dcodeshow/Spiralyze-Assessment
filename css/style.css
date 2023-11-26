@@ -327,4 +327,18 @@ ul {
   line-height: 24px;
   color: #FFFFFF;
   padding-right: 70px;
+}
+
+/*************/
+.inquery-form {
+  background-image: linear-gradient(rgb(42, 125, 108), rgba(62, 105, 96, 0.62));
+  min-height: 400px;
+  border-radius: 12px;
+  padding: 40px 30px;
+}
+.inquery-form h4 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
