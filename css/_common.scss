@@ -271,6 +271,71 @@ ul {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.flex-group {
+    margin: 0 -10px;
+
+    .plr-10 {
+        padding: 0 10px;
+    }
+}
+
+.btn {
+    font-weight: $F-weight700;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.2s linear;
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+.btn-primary {
+    background-color: $C-5BC8AF;
+    color: $C-FFFFFF;
+
+    &:hover {
+        background-color: $C-35BB9C;
+    }
+}
+
+.custom-arrow {
+    position: relative;
+
+    select {
+        appearance: none;
+        /*  safari  */
+        -webkit-appearance: none;
+        padding: 0 15px !important;
+        color: rgba(255, 255, 255, 0.5);
+
+        option {
+            color: #000 !important;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 1rem;
+        pointer-events: none;
+        background-image: url("../images/icons/dropdpwn-arrow.svg");
+        width: 10px;
+        height: 5px;
+        top: 50%;
+    }
 }
