@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 /**Common Css Start**/
@@ -15,6 +16,10 @@ body {
 a:focus,
 a:hover,
 a:visited {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -34,6 +39,7 @@ h5,
 h6,
 p {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol,
@@ -64,16 +70,11 @@ ul {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 1170px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.lg-container {
-    xmax-width: 1200px;
-}
-
 
 .fit-img {
     width: 100%;
@@ -254,4 +255,17 @@ ul {
 .ptp-100 {
     padding-bottom: 100px;
     padding-top: 100px;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
 }

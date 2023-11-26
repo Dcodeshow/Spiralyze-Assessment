@@ -1,2 +1,70 @@
 @import "variables";
 @import "common";
+
+.banner-wrap {
+  background-image: url("../images/banner.jpg");
+  background-position: center center;
+  min-height: 600px;
+  background-size: cover;
+  position: relative;
+  padding-top: 35px;
+
+  // &::before {
+  //   content: "";
+  //   width: 100%;
+  //   background: url(../images/banner-border.png);
+  //   position: absolute;
+  //   left: 0;
+  //   bottom: 0;
+  //   height: 100px;
+  // }
+}
+
+.navbar {
+  li {
+    min-width: 90px;
+    text-align: center;
+  }
+
+  a {
+    color: $C-FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.7;
+    xmargin: 0 20px;
+    display: inline-block;
+    transition: 0.2s linear;
+
+    &.active,
+    &:hover {
+      opacity: 1;
+      font-weight: $F-weight700;
+      text-decoration: underline;
+      transition: 0.2s linear;
+    }
+  }
+}
+
+.header-call {
+  color: $C-FFFFFF;
+  font-weight: $F-weight700;
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  padding-left: 40px;
+  margin-left: 20px;
+
+  a {
+    color: $C-5BC8AF;
+  }
+}
+
+.heading {
+  font-size: $F-size64;
+  font-weight: $F-weight700;
+  line-height: 72px;
+  color: #fff;
+
+  span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: #fff;
+  }
+}
