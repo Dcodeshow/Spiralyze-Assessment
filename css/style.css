@@ -10,6 +10,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 
 /**Common Css Start**/
@@ -40,6 +41,10 @@ h6,
 p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 24px;
 }
 
 ol,
@@ -300,6 +305,7 @@ ul {
   border-left: 1px solid rgba(255, 255, 255, 0.7);
   padding-left: 40px;
   margin-left: 20px;
+  line-height: 1.1;
 }
 .header-call a {
   color: #5BC8AF;
@@ -309,10 +315,16 @@ ul {
   font-size: 64px;
   font-weight: 700;
   line-height: 72px;
-  color: #fff;
+  color: #FFFFFF;
 }
 .heading span {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  color: #fff;
+  color: #FFFFFF;
+}
+
+.banner-info p {
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-right: 70px;
 }/*# sourceMappingURL=style.css.map */

@@ -50,6 +50,7 @@
   border-left: 1px solid rgba(255, 255, 255, 0.7);
   padding-left: 40px;
   margin-left: 20px;
+  line-height: 1.1;
 
   a {
     color: $C-5BC8AF;
@@ -60,11 +61,19 @@
   font-size: $F-size64;
   font-weight: $F-weight700;
   line-height: 72px;
-  color: #fff;
+  color: $C-FFFFFF;
 
   span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    color: #fff;
+    color: $C-FFFFFF;
+  }
+}
+
+.banner-info {
+  p {
+    line-height: 24px;
+    color: $C-FFFFFF;
+    padding-right: 70px;
   }
 }
