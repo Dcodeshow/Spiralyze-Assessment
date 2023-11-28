@@ -11,6 +11,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  color: #333333;
 }
 
 /**Common Css Start**/
@@ -79,6 +80,11 @@ ul {
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .fit-img {
@@ -331,6 +337,29 @@ ul {
   top: 50%;
 }
 
+.heading, .sub-heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+.heading span, .sub-heading span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  color: #FFFFFF;
+}
+
+.sub-heading {
+  color: #333333;
+  font-size: 34px;
+  line-height: 1.1;
+}
+.sub-heading span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  color: #333333;
+}
+
 .banner-wrap {
   background-image: url("../images/banner.jpg");
   background-position: center center;
@@ -369,18 +398,6 @@ ul {
 }
 .header-call a {
   color: #5BC8AF;
-}
-
-.heading {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 72px;
-  color: #FFFFFF;
-}
-.heading span {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  color: #FFFFFF;
 }
 
 .banner-info p {
@@ -441,4 +458,33 @@ ul {
 }
 .inquery-form .form-group input:focus {
   border: 1px solid #fff;
+}
+
+/*****************************/
+.we-understand-wrap {
+  background-color: #F5F5F5;
+}
+.we-understand-wrap .card {
+  width: 31%;
+}
+.we-understand-wrap .card p {
+  text-align: justify;
+}
+
+/*****************************/
+.testimonial-slider {
+  margin-top: -30px;
+}
+.testimonial-slider .container {
+  padding: 0 100px;
+}
+.testimonial-slider .info {
+  background-color: #194D44;
+}
+.testimonial-slider .image {
+  width: 260px;
+}
+.testimonial-slider .info {
+  width: calc(100% - 260px);
+  padding: 50px;
 }/*# sourceMappingURL=style.css.map */

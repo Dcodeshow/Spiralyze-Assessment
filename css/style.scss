@@ -57,18 +57,7 @@
   }
 }
 
-.heading {
-  font-size: $F-size64;
-  font-weight: $F-weight700;
-  line-height: 72px;
-  color: $C-FFFFFF;
 
-  span {
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    color: $C-FFFFFF;
-  }
-}
 
 .banner-info {
   p {
@@ -138,4 +127,39 @@
     }
   }
 
+}
+
+/*****************************/
+.we-understand-wrap {
+  background-color: $C-F5F5F5;
+
+  .card {
+    width: 31%;
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+/*****************************/
+.testimonial-slider {
+  margin-top: -30px;
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .info {
+    background-color: $C-194D44;
+  }
+
+  .image {
+    width: 260px;
+  }
+
+  .info {
+    width: calc(100% - 260px);
+    padding: 50px;
+  }
 }

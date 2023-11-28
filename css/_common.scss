@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    color: $C-333333;
 }
 
 /**Common Css Start**/
@@ -79,6 +80,11 @@ ul {
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .fit-img {
@@ -337,5 +343,31 @@ ul {
         width: 10px;
         height: 5px;
         top: 50%;
+    }
+}
+
+.heading {
+    font-size: $F-size64;
+    font-weight: $F-weight700;
+    line-height: 72px;
+    color: $C-FFFFFF;
+
+    span {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        color: $C-FFFFFF;
+    }
+}
+
+.sub-heading {
+    @extend .heading;
+    color: $C-333333;
+    font-size: $F-size28 + 6px;
+    line-height: 1.1;
+
+    span {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        color: $C-333333;
     }
 }
